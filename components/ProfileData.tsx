@@ -30,8 +30,8 @@ const ProfileData = () => {
         initial={{ x: -30, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1 }}>
-        I'm currently studying an artificial intelligence engineering degree at{" "}
-        {""}
+        {"I´m"} currently studying an artificial intelligence engineering degree
+        at {""}
         <a
           href="https://www.escom.ipn.mx"
           target="_blank"
