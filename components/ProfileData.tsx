@@ -8,12 +8,12 @@ const ProfileData = () => {
   return (
     <main>
       <motion.div
-        className="flex space-x-3 items-center mb-6 "
+        className="flex space-x-3 items-center mb-3 md:mb-6 "
         initial={{ x: -10, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 0.5 }}>
         {/* <div className="w-12 h-1 bg-gray-100 flex"></div> */}
-        <h2 className="text-gray-100 text-5xl font-bold ">
+        <h2 className="text-gray-100 text-3xl md:text-5xl font-bold ">
           {" "}
           {"> "}Victor Manuel
         </h2>

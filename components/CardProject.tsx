@@ -34,8 +34,8 @@ const CardProject = ({
 }: CardProjectProps) => {
   return (
     <div className="w-full">
-      <div className="mt-20 flex flex-col md:flex-row space-x-6 group justify-center">
-        <div className="relative overflow-hidden rounded-md shadow-lg ">
+      <div className="mt-20 flex flex-col md:flex-row md:space-x-6 group justify-center">
+        <div className="relative overflow-hidden rounded-md shadow-lg mx-4">
           <img
             className="w-full md:w-[500px] h-auto md:h-[300px] object-cover transition-transform group-hover:scale-110 duration-300"
             src={image}
@@ -62,7 +62,7 @@ const CardProject = ({
           </div>
         </div>
 
-        <div className="w-11/12 md:w-[350px] text-white flex flex-col justify-between mt-8 md:mt-0 h-[270px] md:h-[300px]">
+        <div className=" md:w-[350px] text-white flex flex-col justify-between mt-8 md:mt-0 h-[270px] md:h-[300px] mx-4">
           <div>
             <h3 className="text-2xl font-semibold">About</h3>
             <p>{description}</p>
