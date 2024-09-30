@@ -19,7 +19,7 @@ const ProfileData = () => {
         </h2>
       </motion.div>
       <motion.p
-        className="text-xl text-transparent bg-clip-text bg-gradient-to-r to-[#dbe5e3] from-[#7dd3bf] mb-2 font-extralight"
+        className="text-xl text-transparent bg-clip-text bg-gradient-to-r to-[#dbe5e3] from-[#9ce1d1] mb-2 font-extralight"
         initial={{ x: -20, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 1 }}>

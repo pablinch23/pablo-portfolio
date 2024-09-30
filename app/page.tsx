@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="absolute top-0 z-[-2] h-max w-screen bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,#0f0721,rgba(255,255,255,0))]">
+    <main className="absolute top-0 z-[-2] h-max max-w-full bg-gray-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,#0f0721,rgba(255,255,255,0))]">
       <section className="relative hidden lg:block">
         <Letters />
       </section>
