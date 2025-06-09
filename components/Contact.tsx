@@ -17,7 +17,7 @@ const Contact = () => {
       <section className="flex space-x-4 justify-center">
         <a
           className="relative inline-flex h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300"
-          href="https://github.com/mvnueloc"
+          href="https://github.com/pablinch23"
           target="_blank">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
@@ -28,7 +28,7 @@ const Contact = () => {
 
         <a
           className="relative inline-flex h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300"
-          href="https://www.linkedin.com/in/victorolguinc/"
+          href="https://www.linkedin.com/in/pablo-ch%C3%A1vez-casta%C3%B1eda-45b6842a1/"
           target="_blank">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
@@ -39,24 +39,24 @@ const Contact = () => {
 
         <a
           className="relative h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300 hidden md:inline-flex"
-          href="mailto:volguincas@gmail.com"
+          href="mailto:pa.pc72@gmail.com"
           target="_blank">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7  text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
             <Mail className="w-6 h-6" />
-            <p>volguincas@gmail.com</p>
+            <p>pa.pc@gmail.com</p>
           </span>
         </a>
       </section>
       <section className="flex justify-center  mt-4">
         <a
           className="relative h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300 inline-flex md:hidden"
-          href="mailto:volguincas@gmail.com"
+          href="mailto:pa.pc@gmail.com"
           target="_blank">
           <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
           <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7  text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
             <Mail className="w-6 h-6" />
-            <p>volguincas@gmail.com</p>
+            <p>pa.pc@gmail.com</p>
           </span>
         </a>
       </section>

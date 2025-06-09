@@ -15,7 +15,7 @@ const ProfileData = () => {
         {/* <div className="w-12 h-1 bg-gray-100 flex"></div> */}
         <h2 className="text-gray-100 text-3xl md:text-5xl font-bold ">
           {" "}
-          {"> "}Victor Manuel
+          {"> "}Pablo Chávez
         </h2>
       </motion.div>
       <motion.p
@@ -38,8 +38,7 @@ const ProfileData = () => {
           className="underline">
           ESCOM
         </a>
-        , where I combine my passion for software development with the world of
-        technology. 💻
+        , where I train to build innovative solutions and leave a mark on the world through technology. 🌎⚡
       </motion.p>
 
       <section className="mt-4">

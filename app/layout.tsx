@@ -5,7 +5,7 @@ import "./globals.css";
 const onest = Onest({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Manuel Olguin | Software Developer",
+  title: "Pablo Chavez | Software Developer",
   description: "My portfolio, projects, and blog.",
 };
 

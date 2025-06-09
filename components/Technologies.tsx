@@ -19,6 +19,9 @@ const slugs = [
   "gitlab",
   "visualstudiocode",
   "figma",
+  "c",
+  "c++",
+  "python"
 ];
 
 export default function Technologies() {

@@ -21,58 +21,26 @@ export default function FeatureAwards() {
 export const products = [
   {
     id: 1,
-    title: "Hackathon TalentLand 2024",
-    link: "https://hackathon.genius-arena.com/hackathon/como-crear-un-sistema-de-informacion-de-valor-para-las-microempresas-fundacion-coppel/",
+    title: "Seminario Microelectronica INAOE 2024",
+    link: "https://www-elec.inaoep.mx/~SEA/2024/",
     thumbnail: "/award.jpg",
   },
   {
     id: 2,
-    title: "Hackathon TalentLand 2024",
-    link: "https://hackathon.genius-arena.com/hackathon/como-crear-un-sistema-de-informacion-de-valor-para-las-microempresas-fundacion-coppel/",
+    title: "Cursos Idiomas CENLEX Zacatenco",
+    link: "https://www.ipn.mx/cenlexz/",
     thumbnail: "/award-4.jpeg",
   },
   {
     id: 3,
-    title: "Hackathon TalentLand 2024",
-    link: "https://hackathon.genius-arena.com/hackathon/como-crear-un-sistema-de-informacion-de-valor-para-las-microempresas-fundacion-coppel/",
-    thumbnail: "/award-1.jpeg",
+    title: "Curso de Verano Centro Nacional de Micro y Nano Tecnología",
+    link: "https://www.ipn.mx/nanocentro/",
+    thumbnail: "/award-1.jpg",
   },
   {
     id: 4,
-    title: "Gran Premio de Mexico - ICPC",
-    link: "https://icpc.global/regionals/finder/mcapgp-2025",
+    title: "Recorrido por Cuarto Limpio",
+    link: "https://www.ipn.mx/nanocentro/",
     thumbnail: "/award-6.jpg",
-  },
-  {
-    id: 5,
-    title: "Hackathon TalentLand 2024",
-    link: "https://hackathon.genius-arena.com/hackathon/como-crear-un-sistema-de-informacion-de-valor-para-las-microempresas-fundacion-coppel/",
-    thumbnail: "/award-2.jpg",
-  },
-
-  {
-    id: 6,
-    title: "Hackathon TalentLand 2024",
-    link: "https://hackathon.genius-arena.com/hackathon/como-crear-un-sistema-de-informacion-de-valor-para-las-microempresas-fundacion-coppel/",
-    thumbnail: "/award-3.jpg",
-  },
-
-  {
-    id: 7,
-    title: "Gran Premio de Mexico - ICPC",
-    link: "https://icpc.global/regionals/finder/mcapgp-2025",
-    thumbnail: "/award-7.jpg",
-  },
-  {
-    id: 8,
-    title: "HackMexico 2024",
-    link: "https://drive.google.com/file/d/1cN5GtCMEdm4hwUd1tBWJFAiMXy3gXmMi/view?usp=sharing",
-    thumbnail: "/award-5.jpg",
-  },
-  {
-    id: 9,
-    title: "Gran Premio de Mexico - ICPC",
-    link: "https://icpc.global/regionals/finder/mcapgp-2025",
-    thumbnail: "/award-8.jpg",
   },
 ];

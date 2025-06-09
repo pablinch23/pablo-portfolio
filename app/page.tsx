@@ -27,17 +27,15 @@ export default function Home() {
           <div className="hidden md:block">
             <div className=" text-center mt-8 md:mt-20 ">
               <TextGenerate
-                text={`"Si puedes imaginarlo puedes programarlo."`}
+                text={`"Lo que construyes hoy con código puede cambiar el mundo mañana."`}
               />
             </div>
-            <div className="text-center items-center space-x-1">
-              <TextGenerate text={"- Programación ATS."} />
-            </div>
+            
             <FadeInComponent>
               <div className="flex justify-center mt-6">
                 <a
                   className="relative h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300 hidden md:inline-flex"
-                  href="/Olguin_Resume.pdf"
+                  href="/PabloCC_Resume.pdf"
                   target="_blank">
                   <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7  text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">
@@ -53,16 +51,14 @@ export default function Home() {
 
       <section className="mb-20 md:hidden">
         <div className=" text-center mt-8 md:mt-20">
-          <TextGenerate text={`"Si puedes imaginarlo puedes programarlo."`} />
+          <TextGenerate text={`"Lo que construyes hoy con código puede cambiar el mundo mañana."`} />
         </div>
-        <div className="text-center items-center space-x-1">
-          <TextGenerate text={"- Programación ATS."} />
-        </div>
+
         <FadeInComponent>
           <div className="flex justify-center mt-6 ">
             <a
               className="relative h-8 md:h-12 active:scale-95 transistion overflow-hidden rounded-lg p-[1px] focus:outline-none hover:scale-105 transition-all duration-300 md:hidden "
-              href="/Olguin_Resume.pdf"
+              href="/PabloCC_Resume.pdf"
               target="_blank">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#e7029a_0%,#f472b6_50%,#bd5fff_100%)]"></span>
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-3 md:px-7  text-sm font-medium text-white backdrop-blur-3xl gap-2 undefined">

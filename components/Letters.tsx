@@ -11,7 +11,7 @@ const Letters = () => {
       transition={{ ease: "easeInOut", duration: 0.75 }}>
       <img
         src="letters.svg"
-        alt="Olguin Castillo en letras grandes"
+        alt="PABLO CHAVEZ en letras grandes"
       />
     </motion.div>
   );

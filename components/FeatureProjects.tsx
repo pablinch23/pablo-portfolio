@@ -13,6 +13,8 @@ import JsIcon from "./icons/JsIcon";
 import PythonIcon from "./icons/PythonIcon";
 import PandasIcon from "./icons/PandasIcon";
 import ScikitIcon from "./icons/ScikitIcon";
+import CPP from "./icons/CPP";
+import CIcono from "./icons/C";
 
 const FeatureProjects = () => {
   return (
@@ -25,128 +27,47 @@ const FeatureProjects = () => {
         <section className="w-full flex flex-col items-center justify-center overflow-hidden">
           <FadeInLeft>
             <CardProject
-              title="DevInterview"
-              image="devinterview.png"
+              title="Research"
+              image="latex.jpg"
               technologies={[
-                { name: "React", icon: ReactIcon },
-                { name: "TailwindCss", icon: TailwindIcon },
+                { name: "CPP", icon: CPP },
               ]}
-              description="Platform that allows you to practice technical interviews to enhance your skills and get a job in the tech industry."
+              description="Document showing various cybersecurity investigations."
               contributors={[
                 {
-                  name: "mvnueloc",
-                  link: "https://github.com/mvnueloc",
+                  name: "pablinch23",
+                  link: "https://github.com/pablinch23",
                   avatar:
-                    "https://avatars.githubusercontent.com/u/128934926?v=4",
-                },
-                {
-                  name: "danielctecla",
-                  link: "https://github.com/danielctecla",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/94944243?v=4",
-                },
-                {
-                  name: "Antxnszn",
-                  link: "https://github.com/Antxnszn",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/147531709?v=4",
+                    "https://avatars.githubusercontent.com/u/140679235?s=400&u=18efccb407e3cd93c9889f11982773ab64a9ac82&v=4",
                 },
               ]}
-              source="https://github.com/mvnueloc/DevInterview"
-              preview="https://devinterview.vercel.app"
+              source="https://github.com/pablinch23/Investigaciones"
+              preview="https://github.com/pablinch23/Investigaciones"
             />
           </FadeInLeft>
 
           <FadeInRight>
             <CardProject
-              title="Filters PDI"
-              image="filterspdi.png"
+              title="Board C and C++"
+              image="cycpp.jpeg"
               technologies={[
-                { name: "HTML", icon: HtmlIcon },
-                { name: "CSS", icon: CssIcon },
-                { name: "JavaScript", icon: JsIcon },
+                { name: "C", icon: CIcono },
               ]}
-              description="Web application that allows you to apply the most common filters in image processing, like binarization, grayscale, sobel, etc."
+              description="C and C++ codes as a way to develop a whiteboard for learning programming.."
               contributors={[
                 {
-                  name: "mvnueloc",
-                  link: "https://github.com/mvnueloc",
+                  name: "pablinch23",
+                  link: "https://github.com/pablinch23",
                   avatar:
-                    "https://avatars.githubusercontent.com/u/128934926?v=4",
+                    "https://avatars.githubusercontent.com/u/140679235?s=400&u=18efccb407e3cd93c9889f11982773ab64a9ac82&v=4",
                 },
               ]}
-              source="https://github.com/mvnueloc/FiltersJs_PDI"
-              preview="https://filters-pdi.netlify.app"
+              source="https://github.com/pablinch23/codigos-en-C-y-Cplusplus"
+              preview="https://github.com/pablinch23/codigos-en-C-y-Cplusplus"
             />
           </FadeInRight>
 
-          <FadeInLeft>
-            <CardProject
-              title="Conexion Emprendedora"
-              image="conexion-emprendedora.png"
-              technologies={[
-                { name: "React", icon: ReactIcon },
-                { name: "TailwindCss", icon: TailwindIcon },
-              ]}
-              description="Minimum viable product that allows entrepreneurs to know more about their finances, sales and customers."
-              contributors={[
-                {
-                  name: "mvnueloc",
-                  link: "https://github.com/mvnueloc",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/128934926?v=4",
-                },
-                {
-                  name: "danielctecla",
-                  link: "https://github.com/danielctecla",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/94944243?v=4",
-                },
-                {
-                  name: "harielPS",
-                  link: "https://github.com/HarielPS",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/163700357?v=4",
-                },
-                {
-                  name: "charlyguz",
-                  link: "https://github.com/charlyguz",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/83683712?v=4",
-                },
-              ]}
-              source="https://github.com/charlyguz/ConexionEmprendedora"
-              preview="https://conexionemprendedora.z13.web.core.windows.net"
-            />
-          </FadeInLeft>
-
-          <FadeInRight>
-            <CardProject
-              title="Music Recommendation System"
-              image="music-system-recommendation.png"
-              technologies={[
-                { name: "Python", icon: PythonIcon },
-                { name: "Pandas", icon: PandasIcon },
-                { name: "Scikitlearn", icon: ScikitIcon },
-              ]}
-              description="Music recommendation program based on the metadata of the songs.  Uses the unsupervised learning algorithm to group and classify songs."
-              contributors={[
-                {
-                  name: "mvnueloc",
-                  link: "https://github.com/mvnueloc",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/128934926?v=4",
-                },
-                {
-                  name: "danielctecla",
-                  link: "https://github.com/danielctecla",
-                  avatar:
-                    "https://avatars.githubusercontent.com/u/94944243?v=4",
-                },
-              ]}
-              source="https://github.com/mvnueloc/Music_Recommendation_System"
-            />
-          </FadeInRight>
+         
         </section>
       </main>
     </FadeInComponent>
